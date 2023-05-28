@@ -21,10 +21,10 @@
 }
 
 .tooltip-top .tooltip-content {
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 8px;
+  bottom: 100%; /* Position the tooltip content below the target element */
+  left: 50%; /* Position the tooltip content horizontally at the center of the target element */
+  transform: translateX(-50%); /* Move the tooltip content horizontally by 50% of its own width towards the left */
+  margin-bottom: 8px; /* Add 8px of margin below the tooltip content */
 }
 
 .tooltip-bottom .tooltip-content {
