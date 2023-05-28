@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reacttooltip/static/css/main.4899d8db.css",
+    "main.js": "/reacttooltip/static/js/main.ad70c29c.js",
+    "static/js/787.3167bfbc.chunk.js": "/reacttooltip/static/js/787.3167bfbc.chunk.js",
+    "index.html": "/reacttooltip/index.html",
+    "main.4899d8db.css.map": "/reacttooltip/static/css/main.4899d8db.css.map",
+    "main.ad70c29c.js.map": "/reacttooltip/static/js/main.ad70c29c.js.map",
+    "787.3167bfbc.chunk.js.map": "/reacttooltip/static/js/787.3167bfbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4899d8db.css",
+    "static/js/main.ad70c29c.js"
+  ]
+}
