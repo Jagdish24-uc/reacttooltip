@@ -1,22 +1,23 @@
 // Tooltip.js
 
-import React, { useState } from 'react';
-import './Tooltip.css';
+import React, { useState } from 'react'; // Import the necessary dependencies
+import './Tooltip.css'; // Import the Tooltip.css styles
 
+// Define the Tooltip component
 const Tooltip = ({ position, children }) => {
-  const [showTooltip, setShowTooltip] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(false); // Create a state variable to track the visibility of the tooltip
 
-  const handleMouseEnter = () => {
-    setShowTooltip(true);
+  const handleMouseEnter = () => { // Event handler for mouse enter
+    setShowTooltip(true); // Set showTooltip state to true when mouse enters the target
   };
 
-  const handleMouseLeave = () => {
-    setShowTooltip(false);
+  const handleMouseLeave = () => { // Event handler for mouse leave
+    setShowTooltip(false); // Set showTooltip state to false when mouse leaves the target
   };
 
-  let tooltipClassName = 'tooltip';
+  let tooltipClassName = 'tooltip'; // Initialize the tooltipClassName variable with 'tooltip'
   if (position) {
-    tooltipClassName += ` tooltip-${position}`;
+    tooltipClassName += ` tooltip-${position}`; // Append the position value to the tooltipClassName if it exists
   }
 
   return (
@@ -26,9 +27,9 @@ const Tooltip = ({ position, children }) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        {children}
+        {children} {/* Render the children elements passed to the Tooltip component */}
       </div>
-      {showTooltip && (
+      {showTooltip && ( // Render the tooltip if showTooltip is true
         <div className={tooltipClassName}>
           This is a tooltip.
         </div>
@@ -37,4 +38,4 @@ const Tooltip = ({ position, children }) => {
   );
 };
 
-export default Tooltip;
+export default Tooltip; // Export the Tooltip component as the default export
