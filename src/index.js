@@ -1,10 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-//import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'; // Import the React library
+import ReactDOM from 'react-dom/client'; // Import the ReactDOM library
+import './index.css'; // Import the index.css styles
+import App from './App'; // Import the App component
+import reportWebVitals from './reportWebVitals'; // Import the reportWebVitals function
 
+// Create a root for rendering React components
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Render the App component inside the root with strict mode enabled
 root.render(
   <React.StrictMode>
     <App />
