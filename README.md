@@ -19,7 +19,9 @@ To get started with the Tooltip App, follow these steps:
 Open your web browser and visit http://localhost:3000 to see the app in action.
 
 ## preview
+https://jagdish24-uc.github.io/reacttooltip/
 ![tooltip](https://github.com/Jagdish24-uc/reacttooltip/assets/71270068/9845f3ae-5bc0-4433-b00a-6a71403fbdce)
+
 
 
 ## Learn More
